@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+/* the two containers container the login section on the left and the company images on the right */
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+.logo-img {
+    margin-top: 18em;
+    width: 17%;
+    height: auto;
+}
+
+#logo-container {
+    text-align: center;
+}
+
+/* styling for the title's etc */
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+h4 {
+    font-weight: 300;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    font-size: 1em;
+}
+
+
+/* Styling for input text section */
+
+input[type="text"]#subdomain {
+    -webkit-appearance: none !important;
+    border: 1px solid #8080804d;
+    width: 89%;
+    padding: 19px;
+    margin-bottom: 28px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* password input box */
+#password {
+    -webkit-appearance: none !important;
+    border: 1px solid #8080804d;
+    width: 89%;
+    font-size: 16px;
+    padding: 19px;
+    margin-bottom: 28px;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* login button */
+#login-btn {
+    -webkit-appearance: none !important;
+    border: 1px solid #8080804d;
+    background-color: rgb(15 29 47);
+    color: white;
+    font-size: 1em;
+    width: 98%;
+    padding: 0px;
+    height: 70px;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* ------ */

@@ -39,16 +39,26 @@ h4 {
 }
 
 h6 {
+    font-size: 19px;
+    color: #8080804d;
     text-align: center;
-    font-size: 1em;
+}
+
+.login-title {
+
+    font-size: 19px;
+    color: #8080804d;
+    ;
 }
 
 
-/* Styling for input text section */
+/* Styling for input text section and buttons */
 
 input[type="text"]#subdomain {
     -webkit-appearance: none !important;
     border: 1px solid #8080804d;
+    color: #8080804d;
+    ;
     width: 89%;
     padding: 19px;
     margin-bottom: 28px;
@@ -83,4 +93,69 @@ input[type="text"]#subdomain {
     outline: none;
 }
 
+/* the buttons with the social media buttons */
+.logo-btn-container {
+    display: flex;
+    width: 100%;
+
+}
+
+/* the class added to all social media logos in the buttons*/
+
+.logo-btn-container {
+    height: 70px;
+    border-radius: 8px;
+    border: 1px #8080804d solid;
+    background-color: white;
+    height: 107px;
+    outline: none;
+}
+
+.btn-logo {
+    padding: 11px;
+    width: 9%;
+    margin-top: 26px;
+    margin-left: 91px;
+}
+
 /* ------ */
+
+/* the right company image */
+#right-img {
+
+    height: 1095px;
+    width: 216%;
+    float: right;
+    margin-right: -18em;
+}
+
+
+/* MEDIA QUERIES */
+
+/* MEDIA QUERY FOR MOBILE DEVICES */
+
+@media only screen and (max-width: 600px) {
+    #right-img {
+        display: none;
+    }
+
+    .logo-btn-container {}
+
+    .btn-logo {
+        margin-left: 53px;
+    }
+}
+
+/* Small devices, portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+
+    #right-img {
+        display: none;
+    }
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+    }
+}

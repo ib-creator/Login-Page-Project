@@ -159,3 +159,16 @@ input[type="text"]#subdomain {
         justify-content: center;
     }
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+
+    #right-img {
+        width: 156%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #right-img {
+        width: 182%;
+    }
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* styling of headers */
+
+h1 {
+    text-align: center;
+}
+
+
+
+
+/* The styling of the WIDGETS and everything inside */
+
+h4 {
+    font-size: 23px;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    color: rgb(119, 117, 117);
+}
+
+.top-widget {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.widget-1 {
+    text-align: center;
+    width: 23%;
+    height: 654px;
+    border: 8px #009ff5 solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* background image in the widget */
+
+.widget-background {
+    width: 88%;
+    height: 88px;
+    border-radius: 13px;
+    margin-top: 93px;
+}
+
+.avatar-png {
+    width: 27%;
+    margin-top: -60px;
+}
+
+
+.logo-containers {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+/* button */
+
+#contact-btn {
+    color: rgb(119, 117, 117);
+    font-size: 16px;
+    padding: 22px;
+    border-radius: 7px;
+    background-color: white;
+    border: 2px #009ff5 solid;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(119, 117, 117);
+}
+
+
+#company-logo {
+
+    width: 13%;
+    margin-top: 29px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 767px) {
+    .widget-1 {
+        width: 87%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .widget-1 {
+        width: 71%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .widget-1 {
+        width: 23%;
+    }
+}
